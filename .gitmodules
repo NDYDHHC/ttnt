@@ -1,0 +1,8 @@
+[submodule "ttnt"]
+	path = ttnt
+	url = https://github.com/NDYDHHC/ttnt.git
+	branch = master
+[submodule "ttnt-godot"]
+	path = ttnt-godot
+	url = https://github.com/NDYDHHC/ttnt-godot.git
+	branch = main
