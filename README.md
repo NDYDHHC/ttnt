@@ -1,4 +1,4 @@
-# ttnt-workspace
+# ttnt
 
 Top-level integration repository for the TTNT stack.
 
@@ -6,7 +6,7 @@ This repository exists to keep engine-specific adapters parallel instead of lett
 
 ## Layout
 
-- `ttnt/`: engine-agnostic core runtime, data model, services, and cross-engine interfaces
+- `ttnt-runtime/`: engine-agnostic core runtime, data model, services, and cross-engine interfaces
 - `ttnt-godot/`: Godot GDExtension adapter, Godot rendering bridge, and Godot debug project
 - `ttnt-ue5/`: reserved for the future UE5 adapter repository
 
@@ -14,7 +14,7 @@ This repository exists to keep engine-specific adapters parallel instead of lett
 
 The workspace enforces the intended dependency direction:
 
-- `ttnt` is the core
+- `ttnt-runtime` is the core
 - `ttnt-godot` is an adapter
 - `ttnt-ue5` will be another adapter
 
@@ -38,7 +38,7 @@ The bootstrap script initializes the top-level sibling repositories only. Nested
 
 ## VS Code
 
-Open `ttnt.workspace.code-workspace` to load the core and Godot adapter together in one workspace.
+Open `ttnt.code-workspace` to load the runtime and Godot adapter together in one workspace.
 
 ## UE5 Placeholder
 

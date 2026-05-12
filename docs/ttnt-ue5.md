@@ -11,9 +11,9 @@ Planned role:
 
 Rules:
 
-- Keep engine-agnostic logic in `ttnt`
+- Keep engine-agnostic logic in `ttnt-runtime`
 - Keep Unreal-specific bridging in `ttnt-ue5`
-- Do not make `ttnt` depend on Unreal headers, build tools, or runtime types
+- Do not make `ttnt-runtime` depend on Unreal headers, build tools, or runtime types
 
 Recommended add command when the repository is ready:
 

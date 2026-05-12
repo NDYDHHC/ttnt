@@ -4,7 +4,7 @@
       "path": "."
     },
     {
-      "path": "ttnt"
+      "path": "ttnt-runtime"
     },
     {
       "path": "ttnt-godot"

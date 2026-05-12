@@ -1,6 +1,6 @@
-[submodule "ttnt"]
-	path = ttnt
-	url = https://github.com/NDYDHHC/ttnt.git
+[submodule "ttnt-runtime"]
+	path = ttnt-runtime
+	url = https://github.com/NDYDHHC/ttnt-runtime.git
 	branch = master
 [submodule "ttnt-godot"]
 	path = ttnt-godot
