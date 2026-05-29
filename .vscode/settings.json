@@ -1,3 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/mlmc/GitHub/ttnt/ttnt-godot"
+    "cmake.sourceDirectory": "/Users/mlmc/Documents/GitHub/TTNT/ttnt-runtime/Kernel/Sources/Core",
+    "C_Cpp.default.compileCommands": "${workspaceFolder:ttnt-godot}/compile_commands.json",
+    "C_Cpp.default.cppStandard": "c++20"
 }
