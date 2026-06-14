@@ -16,7 +16,7 @@ import sys
 import subprocess
 import argparse
 from pathlib import Path
-from typing import List, Sequence, Tuple
+from typing import List, Sequence, Tuple, Optional
 
 
 def get_workspace_root() -> Path:
@@ -55,7 +55,7 @@ def is_detached_head(repo_path: Path) -> bool:
 
 
 class GitOperationManager:
-    def __init__(self, base_dirs: Sequence[str] | None = None):
+    def __init__(self, base_dirs: Optional[Sequence[str]] = None):
         """
         初始化Git操作管理器
 
