@@ -2,18 +2,22 @@
     "configurations": [
         {
             "name": "Mac",
+            "compileCommands": "${workspaceFolder:ttnt-runtime}/Debug/compile_commands.json",
             "includePath": [
                 "${workspaceFolder:ttnt-godot}/Engine/godot-cpp/include",
                 "${workspaceFolder:ttnt-godot}/Engine/godot-cpp/gen/include",
                 "${workspaceFolder:ttnt-godot}/modules/godot_extension/src",
                 "${workspaceFolder:ttnt-godot}/modules/imgui/src",
-                "${workspaceFolder:ttnt-runtime}/Kernel/Include",
+                "${workspaceFolder:ttnt-runtime}/kernel/include",
+                "${workspaceFolder:ttnt-runtime}/kernel/sources",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/spdlog/include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/entt/single_include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/Clipper2/CPP/Clipper2Lib/include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/exprtk",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/cpp-httplib",
-                "${workspaceFolder:ttnt-runtime}/ThirdParty/oneTBB/include"
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/oneTBB/include",
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/pmp-library/src",
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/manifold/include"
             ],
             "defines": [],
             "cStandard": "c17",
@@ -23,18 +27,22 @@
         },
         {
             "name": "Linux",
+            "compileCommands": "${workspaceFolder:ttnt-runtime}/Debug/compile_commands.json",
             "includePath": [
                 "${workspaceFolder:ttnt-godot}/Engine/godot-cpp/include",
                 "${workspaceFolder:ttnt-godot}/Engine/godot-cpp/gen/include",
                 "${workspaceFolder:ttnt-godot}/modules/godot_extension/src",
                 "${workspaceFolder:ttnt-godot}/modules/imgui/src",
-                "${workspaceFolder:ttnt-runtime}/Kernel/Include",
+                "${workspaceFolder:ttnt-runtime}/kernel/include",
+                "${workspaceFolder:ttnt-runtime}/kernel/sources",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/spdlog/include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/entt/single_include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/Clipper2/CPP/Clipper2Lib/include",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/exprtk",
                 "${workspaceFolder:ttnt-runtime}/ThirdParty/cpp-httplib",
-                "${workspaceFolder:ttnt-runtime}/ThirdParty/oneTBB/include"
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/oneTBB/include",
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/pmp-library/src",
+                "${workspaceFolder:ttnt-runtime}/ThirdParty/manifold/include"
             ],
             "defines": [],
             "cStandard": "c17",
